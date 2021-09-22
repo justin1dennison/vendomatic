@@ -4,8 +4,8 @@
   "description": "",
   "main": "app/index.js",
   "scripts": {
-    "test": "NODE_ENV='testing' ava test.js",
-    "dev": "NODE_ENV='development' nodemon -w src/**/*.js src"
+    "test": "NODE_ENV=testing ava test.js",
+    "dev": "NODE_ENV=development nodemon -w src/**/*.js src"
   },
   "repository": {
     "type": "git",
